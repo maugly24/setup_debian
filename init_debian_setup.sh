@@ -1,5 +1,9 @@
 #!/bin/bash
 
+sudo visudo
+
+sudo apt-get install git
+
 cd
 mkdir repos
 cd ~/repos
