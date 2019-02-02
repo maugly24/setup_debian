@@ -1,10 +1,10 @@
 #!/bin/bash
 
-sudo visudo
+sudo sed -i 's/^%sudo\tALL=(ALL:ALL) ALL$/%sudo\tALL=(ALL) NOPASSWD:ALL/g' /etc/sudoers
 
-sudo apt update
-sudo apt upgrade
-sudo apt install git
+sudo apt -y update
+sudo apt -y upgrade
+sudo apt -y install git
 
 cd
 mkdir repos
