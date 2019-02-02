@@ -1,8 +1,10 @@
 #!/bin/bash
- 
+
 sudo visudo
 
-sudo apt-get install git
+sudo apt update
+sudo apt upgrade
+sudo apt install git
 
 cd
 mkdir repos
