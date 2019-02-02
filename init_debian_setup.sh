@@ -1,5 +1,5 @@
 #!/bin/bash
-
+ 
 sudo visudo
 
 sudo apt-get install git
