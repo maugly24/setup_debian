@@ -8,6 +8,8 @@ sudo apt -y install git virtualenv
 
 git config --global user.email "maugli@apache.org"
 git config --global user.name "Attila Szabo"
+git config --global user.signingkey 1F68EA1B
+git config --global commit.gpgsign true
 
 virtualenv -p python3 ansiblepip
 source ansiblepip/bin/activate
